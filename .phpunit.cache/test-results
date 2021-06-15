@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ApiTest::testList":5,"ApiTest::testShow":5,"ApiTest::testUpdate":5,"ApiTest::testDelete":5},"times":{"ApiTest::testList":0.15,"ApiTest::testShow":0.091,"ApiTest::testUpdate":0.118,"ApiTest::testDelete":0.086}}

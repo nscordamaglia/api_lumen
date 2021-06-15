@@ -1,0 +1,29 @@
+version: "3"
+
+networks:
+  lumen:
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx_olx
+    ports:
+      - "8080:80"
+    volumes:
+      - ../:/var/www
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - lumen
+
+  php:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: lumen_olx
+    hostname: lumen
+    volumes: 
+      - ../:/var/www
+    networks: 
+      - lumen
+    user: "1000:1000"
+

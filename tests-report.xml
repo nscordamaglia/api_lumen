@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.443642">
+    <testsuite name="Application Test Suite" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.443642">
+      <testsuite name="ApiTest" file="/var/www/olx/tests/ApiTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.443642">
+        <testcase name="testList" class="ApiTest" classname="ApiTest" file="/var/www/olx/tests/ApiTest.php" line="12" assertions="1" time="0.170937"/>
+        <testcase name="testShow" class="ApiTest" classname="ApiTest" file="/var/www/olx/tests/ApiTest.php" line="18" assertions="1" time="0.099352"/>
+        <testcase name="testUpdate" class="ApiTest" classname="ApiTest" file="/var/www/olx/tests/ApiTest.php" line="27" assertions="1" time="0.086168"/>
+        <testcase name="testDelete" class="ApiTest" classname="ApiTest" file="/var/www/olx/tests/ApiTest.php" line="36" assertions="1" time="0.087185"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
