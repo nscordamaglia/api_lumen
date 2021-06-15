@@ -17,22 +17,22 @@ docker ngnix
 
 # Dentro del container
 ---------------------
-copiar .env.example como .env
-php artisan migrate
-php artisan db:seed
-GET http://localhost:8080/ -> version
+- copiar .env.example como .env
+- php artisan migrate
+- php artisan db:seed
+- GET http://localhost:8080/ -> version
 
 # Rutas
 ---------
-POST http://localhost:8080/login 
-GET http://localhost:8080/list
-GET http://localhost:8080/show/id
-PUT http://localhost:8080/update/id
-DELETE http://localhost:8080/delete/id
+- POST http://localhost:8080/login 
+- GET http://localhost:8080/list
+- GET http://localhost:8080/show/id
+- PUT http://localhost:8080/update/id
+- DELETE http://localhost:8080/delete/id
 
 # Obtener token
 ---------------
-POST http://localhost:8080/login ->  user: admin, password: 12345
+- POST http://localhost:8080/login ->  user: admin, password: 12345
 * Extraner el access_token *
   {
   "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4MFwvbG9naW4iLCJpYXQiOjE2MjM3OTQ0NzMsImV4cCI6MTYyMzc5ODA3MywibmJmIjoxNjIzNzk0NDczLCJqdGkiOiJ4TU9FWTdVM25iS2xQd2haIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.MtG62LILZy0A_tWl7MVAxpVT1xRsLr-Lpb6PXNqDJXU",
