@@ -12,8 +12,8 @@ docker ngnix
 
 # Luego de descargar
 -------------------
-docker-compose up -d
-docker exec -it lumen_olx ash
+- docker-compose up -d
+- docker exec -it lumen_olx ash
 
 # Dentro del container
 ---------------------
