@@ -18,6 +18,7 @@ docker ngnix
 # Dentro del container
 ---------------------
 - copiar .env.example como .env
+- composer install
 - php artisan migrate
 - php artisan db:seed
 - GET http://localhost:8080/ -> version
